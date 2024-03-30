@@ -7,21 +7,24 @@
   pointer-events: none;
 }
 
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 150px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 40s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(to right, #D7B1FF, #619E92, #136BCB, #B75D86);
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
