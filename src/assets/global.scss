@@ -1,0 +1,22 @@
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 100px;
+
+  &:hover {
+    color: blue;
+  }
+}
+
+h4 {
+  font-family: 'Karla', sans-serif;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+}

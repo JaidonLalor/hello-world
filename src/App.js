@@ -1,14 +1,11 @@
-import logo from './assets/logo.svg';
-import './App.css';
+import './assets/global.scss';
+import IndustryCardGrid from './pages/Home/components/IndustryCardGrid/IndustryCardGrid.tsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1>Hello World!</h1>
-          <img src={logo} className="App-logo" alt="logo" />
-      </header>
+    <div>
+      <h1>Hello World!</h1>
+      <IndustryCardGrid/>
     </div>
   );
 }
